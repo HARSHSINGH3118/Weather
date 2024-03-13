@@ -104,3 +104,26 @@ body {
   margin-top: 10px;
   display: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    padding: 30px 20px;
+  }
+
+  .search input {
+    font-size: 16px;
+  }
+
+  .weather h1 {
+    font-size: 60px;
+  }
+
+  .weather h2 {
+    font-size: 35px;
+  }
+
+  .details {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+}
